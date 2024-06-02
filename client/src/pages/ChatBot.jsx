@@ -35,8 +35,8 @@ const ChatBot = () => {
   return (
     <Widget
       handleNewUserMessage={handleNewUserMessage}
-      title="Chat with the Bot"
-      subtitle="Powered by AIMLAPI"
+      title="Travel and Guide AgentBot"
+      subtitle="Ask me about Places"
       senderPlaceHolder="Type a message..."
     />
   );
