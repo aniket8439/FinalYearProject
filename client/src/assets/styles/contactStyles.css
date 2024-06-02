@@ -1,0 +1,38 @@
+/* styles.css */
+.contact-us-page {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 80px;
+  }
+  
+  .contact-us-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-us-page input,
+  .contact-us-page textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }.contact-us-page textarea{
+    height: 100px;
+  }
+  
+  .contact-us-page button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 60px;
+  }
+  

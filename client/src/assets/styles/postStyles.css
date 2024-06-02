@@ -1,0 +1,117 @@
+.explore-page {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-post-form {
+  position: fixed;
+  width: 500px;
+  top: 200px; /* Adjust as needed */
+  left: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.posts-container {
+  margin-left: 600px; /* Adjust as needed to provide space for the fixed form */
+  flex: 1;
+  overflow-y: auto;
+  max-height: calc(100vh - 40px); /* Adjust to ensure proper height for scrolling */
+}
+
+.heading {
+  text-align: center;
+  color: coral;
+}
+
+.liked svg {
+  fill: red;
+}
+
+.desc {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.post {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-header p {
+  font-weight: bold;
+}
+
+.post p {
+  margin-bottom: 20px;
+}
+
+.post img,
+.post video {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-actions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.post-actions button svg {
+  margin-right: 5px;
+}
+
+.post-comments p {
+  margin-bottom: 5px;
+}
+
+.comment-form input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.comment-form input:focus {
+  outline: none;
+}
+
+.avatar {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+button {
+  margin-top: 10px;
+}
